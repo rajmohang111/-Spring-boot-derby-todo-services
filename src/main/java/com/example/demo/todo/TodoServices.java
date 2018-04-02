@@ -42,7 +42,6 @@ public class TodoServices {
 		todorepo.save(todo);
 		List<Todo> todos = new ArrayList<>(); 
 		todorepo.findAll().forEach(todos::add);
-		
 		return todos;
 	}
 
