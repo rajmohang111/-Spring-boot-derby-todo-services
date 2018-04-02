@@ -1,4 +1,4 @@
-# Spring Boot, apache derby ToDo application webservices
+# Spring Boot, Apache Derby ToDo application webservices
 
 ## Steps to Setup
 
