@@ -33,6 +33,12 @@ public class TodoController {
 	
 	@CrossOrigin(origins = "http://localhost:4200")
 	@RequestMapping(method=RequestMethod.POST, value="todos")
+	public List<Todo> updateTodo(@RequestBody Todo todo) {
+		return todoservice.addTodo(todo);
+	}
+	
+	@CrossOrigin(origins = "http://localhost:4200")
+	@RequestMapping(method=RequestMethod.PUT, value="todos")
 	public List<Todo> addTodo(@RequestBody Todo todo) {
 		return todoservice.addTodo(todo);
 	}
