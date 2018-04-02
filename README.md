@@ -8,9 +8,10 @@
 git clone https://github.com/rajmohang111/-Spring-boot-derby-todo-services
 ```
 
-Alternatively, you can run the app without packaging it using -
+you can run the app
 
 ```bash
+cd -Spring-boot-derby-todo-services
 mvn spring-boot:run
 ```
 
