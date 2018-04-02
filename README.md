@@ -12,6 +12,14 @@ you can run the app
 
 ```bash
 cd -Spring-boot-derby-todo-services
+mvn package
+java -jar target/todo-app-0.0.1-SNAPSHOT.jar
+```
+
+or
+
+```bash
+cd -Spring-boot-derby-todo-services
 mvn spring-boot:run
 ```
 
