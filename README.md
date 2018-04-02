@@ -8,14 +8,6 @@
 git clone https://github.com/rajmohang111/-Spring-boot-derby-todo-services
 ```
 
-**2. Build and run the backend app using maven**
-
-```bash
-cd -Spring-boot-derby-todo-services
-mvn package
-java -jar target/todoapp-1.0.0.jar
-```
-
 Alternatively, you can run the app without packaging it using -
 
 ```bash
